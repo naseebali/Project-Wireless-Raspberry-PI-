@@ -1,40 +1,123 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document File</title>
 </head>
-    <style>
-        #mainDoc{
-            width: 101%;
-            height: 100%;
-        }
-        .document{
-            border: 2px solid black;
-            width: 49%;
-            display: inline-block;
-        }
-        .document img{
-            /* display: inline-block; */
-            width: 100%;
-            height: 100%;
-        }
-    </style>
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    #mainDoc {
+        width: 100%;
+        height: 88%;
+    }
+
+    .document {
+        /* border: 2px solid black; */
+        width: 32%;
+        height: 111%;
+        /* display: inline-block; */
+        float: left;
+        margin: 0px 5px 0px 5px;
+    }
+
+    .document>img {
+        /* display: inline-block; */
+        width: 100%;
+        height: 100%;
+    }
+
+    .notic_header {
+        text-align: center;
+    }
+
+    .notic_img {
+        width: 100%;
+        height: 68%;
+        text-align: center;
+    }
+
+    .notic_img img {
+        width: 100%;
+        height: 99%;
+    }
+
+    .qrBottom {
+        width: 90%;
+        height: 20%;
+        text-align: center;
+    }
+    .qrBottom>h1{
+        float: left;
+        width: 65%;
+        height: 100%;
+        margin-left: 2px;
+        vertical-align: middle;
+        text-decoration: underline;
+        text-decoration-color: blue;
+    }
+    .qrBottom img{
+        float: left;
+        width: 30%;
+        height: 80%;
+    }
+</style>
+
 <body>
     <div id="mainDoc">
         <section class="document">
             <!-- <input type="file" src=""> -->
-            <img src="images/5th conference.jpg" alt="">
+            <div class="notic_header">
+                <h1>This is notified to BSCS 8th Semester </h1>
+            </div>
+            <div class="notic_img">
+                <img src="images/5th conference.jpg" alt="">
+            </div>
+            <div class="qrBottom">
+                <img src="images/qr.jpg" alt="">
+                <h1>Scan QR code for get image </h1>
+
+                </div>
         </section>
         <!-- ---------------------------------- -->
         <section class="document">
             <!-- <input type="file" src=""> -->
-            <img src="images/Affiliation_notice.jpg" alt="">
+            <div class="notic_header">
+                <h1>This is notified to BSCS 8th Semester </h1>
+            </div>
+            <div class="notic_img">
+                <img src="images/Affiliation_notice.jpg" alt="">
+            </div>
+            <div class="qrBottom">
+                    <img src="images/qr.jpg" alt="">
+                    <h1>Scan QR code for get image </h1>
+    
+                    </div>
+        </section>
+        <!-- ---------------------------------- -->
+        <section class="document">
+            <!-- <input type="file" src=""> -->
+            <div class="notic_header">
+                <h1>This is notified to BSCS 8th Semester </h1>
+            </div>
+            <div class="notic_img">
+                <img src="images/Affiliation_notice.jpg" alt="">
+            </div>
+            <div class="qrBottom">
+                    <img src="images/qr.jpg" alt="">
+                    <h1>Scan QR code for get image </h1>
+    
+                    </div>
         </section>
     </div>
 </body>
 <script>
-    
+
 </script>
+
 </html>
